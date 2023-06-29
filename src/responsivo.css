@@ -1,0 +1,70 @@
+@media (max-width:1200px){
+
+    main {
+        position: static;
+    }
+
+    .div-principal{
+        width: 500px;
+        flex-direction: column-reverse;
+        padding-top: 0px;
+    }
+
+    .div-left{
+        width: 400px;
+        padding: 15px;
+    }
+    
+    .div-right{
+        margin: 0px;
+        width: 500px;
+        height: 0px;
+    }
+
+    
+    .imagem {
+        object-fit: cover;
+        object-position: 0px 0px;
+    }
+
+    h1{
+        color: white;
+    }
+    
+    p{
+        color: white;
+    }
+    
+    ul{
+        color: white;
+    }
+
+    .label-email {
+        color: white;
+    }
+
+    .p-confirmado {
+        width: 300px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:800px){
+    .div-principal{
+        width: 400px;
+    }
+
+    .div-left{
+        width: 300px;
+    }
+    
+    .div-right{
+        width: 400px;
+    }
+
+    .label-email {
+        color: black;
+    }
+
+}

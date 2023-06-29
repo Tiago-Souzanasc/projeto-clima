@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-clima</title>
+
+    <link rel="shortcut icon" href="./src/img/sol.ico" type="image/x-icon">
+
+    <link href="./src/style.css" rel="stylesheet" type="text/css">
+    <link href="./src/responsivo.css" rel="stylesheet" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="confirmado">
+        <div class="conteudo-confirmado">
+            <span class="fechar-confirmado">x</span>
+            <h2 class="h2-confirmado">E-mail confirmado</h2>
+            <p class="p-confirmado">Esse site é apenas um projeto teste, você não receberá nada em seu e-mail.</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="div-principal">
+            <div class="div-left">
+                <h1>Fique por dentro do clima</h1>
+                <p>&nbsp &nbsp O clima tem se apresentado bem instável nos últimos dias e se você é do tipo de pessoa que não sai de casa sem antes ver a previsão do tempo, coloque seu e-mail no campo à baixo e receba as atualizações do clima.</p>
+                <ul>
+                    <li>Saiba quando levar o quarda-chuva</li>
+                    <li>Prepare seu cachecol com antecedência</li>
+                    <li>É como prever o futuro</li>
+                </ul>
+                <div class="div-email">
+                    <label class="label-email" for="contato-email">E-Mail</label>
+                    <input type="email" name="email" id="contato-email">
+                    <span class="mensagemErro"></span> <br>
+                    <button class="botao" type="submit">Confirmar</button>
+                </div>
+            </div>
+
+            <div class="div-right">
+                <img class="imagem" src="./src/img/chuva-cortada.jpg">
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/script.js"></script>
+
+</body>
+</html>
